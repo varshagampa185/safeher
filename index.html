@@ -1,0 +1,649 @@
+```html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <meta name="theme-color" content="#7655e8">
+    <meta name="description" content="SafeHer is a women's safety web application with trusted contacts, location sharing, and emergency messaging.">
+
+    <title>SafeHer | Your Safety Companion</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- ================= HEADER ================= -->
+
+    <header class="header">
+        <nav class="navbar container">
+
+            <a href="#home" class="logo">
+                <span class="logo-icon">S</span>
+                <span>SafeHer<span class="logo-dot">.</span></span>
+            </a>
+
+            <div class="nav-links" id="navLinks">
+                <a href="#home">Home</a>
+                <a href="#features">Features</a>
+                <a href="#contacts">Trusted Contacts</a>
+                <a href="#location">My Location</a>
+            </div>
+
+            <button id="darkModeBtn" class="theme-button" type="button"
+                    aria-label="Switch to dark mode">
+                <span id="themeIcon">☾</span>
+                <span id="themeText">Dark Mode</span>
+            </button>
+
+        </nav>
+    </header>
+
+
+    <main>
+
+        <!-- ================= HERO ================= -->
+
+        <section class="hero" id="home">
+
+            <div class="hero-background hero-circle-one"></div>
+            <div class="hero-background hero-circle-two"></div>
+
+            <div class="container hero-layout">
+
+                <div class="hero-content">
+
+                    <div class="eyebrow">
+                        <span class="status-dot"></span>
+                        YOUR PERSONAL SAFETY COMPANION
+                    </div>
+
+                    <h1>
+                        Your safety.<br>
+                        Your strength.<br>
+                        <span>Your freedom.</span>
+                    </h1>
+
+                    <p class="hero-description">
+                        Feel more prepared wherever life takes you.
+                        Keep trusted contacts ready, access your location,
+                        and prepare emergency messages whenever you need them.
+                    </p>
+
+                    <div class="hero-actions">
+                        <a href="#emergency" class="button button-danger">
+                            <span>🚨</span> Emergency Help
+                        </a>
+
+                        <a href="#contacts" class="button button-outline">
+                            Manage Contacts
+                        </a>
+                    </div>
+
+                    <div class="hero-note">
+                        <span class="note-check">✓</span>
+                        A simple safety toolkit, always within reach.
+                    </div>
+
+                </div>
+
+
+                <div class="hero-visual">
+
+                    <div class="visual-orbit orbit-one"></div>
+                    <div class="visual-orbit orbit-two"></div>
+
+                    <div class="safety-card">
+
+                        <div class="safety-card-top">
+                            <div class="shield-icon">🛡️</div>
+
+                            <div>
+                                <h3>Your Safety Space</h3>
+                                <p>Prepared is empowered.</p>
+                            </div>
+
+                            <span class="online-indicator"></span>
+                        </div>
+
+                        <div class="safety-divider"></div>
+
+                        <div class="safety-feature">
+                            <span class="mini-icon purple-icon">👥</span>
+
+                            <div>
+                                <strong>Trusted People</strong>
+                                <p>Keep important contacts close.</p>
+                            </div>
+
+                            <span class="feature-arrow">→</span>
+                        </div>
+
+                        <div class="safety-feature">
+                            <span class="mini-icon pink-icon">📍</span>
+
+                            <div>
+                                <strong>Location Access</strong>
+                                <p>Find your current coordinates.</p>
+                            </div>
+
+                            <span class="feature-arrow">→</span>
+                        </div>
+
+                        <div class="safety-feature">
+                            <span class="mini-icon orange-icon">💌</span>
+
+                            <div>
+                                <strong>Emergency Message</strong>
+                                <p>Prepare a message for someone you trust.</p>
+                            </div>
+
+                            <span class="feature-arrow">→</span>
+                        </div>
+
+                        <div class="safety-card-footer">
+                            <span class="footer-heart">♥</span>
+                            Your safety matters.
+                        </div>
+
+                    </div>
+
+                    <div class="floating-badge badge-top">
+                        <span>💜</span> You matter
+                    </div>
+
+                    <div class="floating-badge badge-bottom">
+                        <span>✓</span> Stay prepared
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= QUICK ACCESS ================= -->
+
+        <section class="quick-section">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">QUICK ACCESS</span>
+                    <h2>Your safety tools</h2>
+                    <p>Access the tools you need without unnecessary steps.</p>
+                </div>
+
+                <div class="quick-grid">
+
+                    <a href="#emergency" class="quick-card">
+                        <div class="quick-icon quick-red">🚨</div>
+                        <div>
+                            <h3>Emergency Help</h3>
+                            <p>Find emergency calling and messaging options.</p>
+                        </div>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                    <a href="#contacts" class="quick-card">
+                        <div class="quick-icon quick-purple">👥</div>
+                        <div>
+                            <h3>Trusted Contacts</h3>
+                            <p>Manage the people you may need to contact.</p>
+                        </div>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                    <a href="#location" class="quick-card">
+                        <div class="quick-icon quick-pink">📍</div>
+                        <div>
+                            <h3>Share Location</h3>
+                            <p>Get your coordinates and a map link.</p>
+                        </div>
+                        <span class="card-arrow">↗</span>
+                    </a>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= FEATURES ================= -->
+
+        <section class="features-section" id="features">
+
+            <div class="container">
+
+                <div class="section-heading">
+                    <span class="section-label">MADE FOR YOUR PEACE OF MIND</span>
+                    <h2>Small tools. Meaningful support.</h2>
+                    <p>
+                        Helpful features designed to make everyday safety
+                        planning easier.
+                    </p>
+                </div>
+
+                <div class="feature-grid">
+
+                    <article class="feature-card">
+                        <div class="feature-icon feature-purple">🛡️</div>
+                        <h3>Safety First</h3>
+                        <p>
+                            Keep essential safety options in one convenient
+                            place so you can prepare before an emergency.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon feature-pink">📍</div>
+                        <h3>Location Assistance</h3>
+                        <p>
+                            Retrieve your device's location when permission
+                            is granted and open it on a map.
+                        </p>
+                    </article>
+
+                    <article class="feature-card">
+                        <div class="feature-icon feature-orange">💌</div>
+                        <h3>Quick Communication</h3>
+                        <p>
+                            Prepare a message with your location and open
+                            your messaging app to send it.
+                        </p>
+                    </article>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= EMERGENCY ================= -->
+
+        <section class="emergency-section" id="emergency">
+
+            <div class="emergency-banner">
+
+                <div class="emergency-content">
+
+                    <div class="emergency-label">
+                        <span class="emergency-pulse"></span>
+                        EMERGENCY ASSISTANCE
+                    </div>
+
+                    <h2>Need help? Let's make it easier to reach someone.</h2>
+
+                    <p>
+                        Call emergency services if you are in immediate danger.
+                        You can also prepare a message for a trusted contact.
+                    </p>
+
+                    <div class="emergency-actions">
+
+                        <a href="tel:112" class="button emergency-call">
+                            📞 Call 112
+                        </a>
+
+                        <button type="button" id="prepareAlertBtn"
+                                class="button emergency-message">
+                            ✉ Prepare Alert
+                        </button>
+
+                    </div>
+
+                    <p class="emergency-disclaimer">
+                        If you are in immediate danger in India, call 112.
+                        This website does not automatically contact emergency
+                        services or send messages.
+                    </p>
+
+                </div>
+
+                <div class="emergency-illustration" aria-hidden="true">
+                    <div class="emergency-circle">
+                        <span>🛡️</span>
+                        <div class="emergency-heart">♥</div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <!-- Emergency Message Form -->
+
+            <div id="alertComposer" class="alert-composer hidden">
+
+                <div class="subsection-heading">
+                    <div class="subsection-icon">💌</div>
+
+                    <div>
+                        <h3>Prepare an emergency message</h3>
+                        <p>Choose a trusted contact and review your message.</p>
+                    </div>
+                </div>
+
+                <form id="alertForm">
+
+                    <div class="form-group">
+                        <label for="alertContact">Send to</label>
+
+                        <select id="alertContact" required>
+                            <option value="">Select a trusted contact</option>
+                        </select>
+                    </div>
+
+                    <div class="form-group">
+                        <label for="alertMessage">Emergency message</label>
+
+                        <textarea id="alertMessage" rows="5" required
+                            placeholder="I may need help. Please contact me as soon as possible."></textarea>
+                    </div>
+
+                    <div class="alert-form-actions">
+
+                        <button type="button" id="shareLocationBtn"
+                                class="button button-outline">
+                            📍 Add My Location
+                        </button>
+
+                        <button type="submit" id="sendAlertBtn"
+                                class="button button-primary">
+                            Open Messages App →
+                        </button>
+
+                    </div>
+
+                    <p class="form-hint">
+                        Your messaging app will open with the message filled
+                        in when your device supports it. You must review and
+                        send the message yourself.
+                    </p>
+
+                </form>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= TRUSTED CONTACTS ================= -->
+
+        <section class="contacts-section" id="contacts">
+
+            <div class="container">
+
+                <div class="section-heading section-heading-left">
+
+                    <span class="section-label">YOUR SUPPORT NETWORK</span>
+
+                    <h2>People you trust.</h2>
+
+                    <p>
+                        Add family members, friends, or anyone you trust
+                        to contact when you need support.
+                    </p>
+
+                </div>
+
+
+                <div class="contacts-layout">
+
+                    <!-- Add Contact -->
+
+                    <div class="form-card">
+
+                        <div class="subsection-heading">
+                            <div class="subsection-icon purple-icon">＋</div>
+
+                            <div>
+                                <h3>Add a trusted contact</h3>
+                                <p>Enter their contact details below.</p>
+                            </div>
+                        </div>
+
+                        <form id="contactForm">
+
+                            <div class="form-group">
+                                <label for="contactName">Full name</label>
+
+                                <input type="text" id="contactName"
+                                    placeholder="e.g. Priya Sharma"
+                                    maxlength="80" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactPhone">Phone number</label>
+
+                                <input type="tel" id="contactPhone"
+                                    placeholder="Enter phone number"
+                                    maxlength="20" required>
+                            </div>
+
+                            <div class="form-group">
+                                <label for="contactRelation">Relationship</label>
+
+                                <select id="contactRelation" required>
+                                    <option value="">Choose relationship</option>
+                                    <option value="Family">Family</option>
+                                    <option value="Friend">Friend</option>
+                                    <option value="Parent">Parent</option>
+                                    <option value="Sibling">Sibling</option>
+                                    <option value="Partner">Partner</option>
+                                    <option value="Other">Other</option>
+                                </select>
+                            </div>
+
+                            <button type="submit" class="button button-primary full-width">
+                                + Add Contact
+                            </button>
+
+                        </form>
+
+                        <p class="privacy-note">
+                            🔒 Your contacts are saved in this browser's local
+                            storage. They are not uploaded to a server.
+                        </p>
+
+                    </div>
+
+
+                    <!-- Contact List -->
+
+                    <div class="saved-contacts-card">
+
+                        <div class="saved-contacts-header">
+
+                            <div>
+                                <h3>Your trusted circle</h3>
+                                <p>People you have added to SafeHer.</p>
+                            </div>
+
+                            <span id="contactCount" class="contact-count">0</span>
+
+                        </div>
+
+                        <div id="contactList" class="contact-list"></div>
+
+                        <div id="emptyContacts" class="empty-contacts">
+
+                            <div class="empty-icon">👥</div>
+
+                            <h3>No contacts yet</h3>
+
+                            <p>
+                                Add someone you trust using the form.
+                                Your saved contacts will appear here.
+                            </p>
+
+                        </div>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= LOCATION ================= -->
+
+        <section class="location-section" id="location">
+
+            <div class="container">
+
+                <div class="section-heading">
+
+                    <span class="section-label">LOCATION ASSISTANCE</span>
+
+                    <h2>Know where you are.</h2>
+
+                    <p>
+                        Retrieve your current device location and open it
+                        on a map. Location access requires your permission.
+                    </p>
+
+                </div>
+
+
+                <div class="location-card">
+
+                    <div class="location-card-top">
+
+                        <div class="location-illustration">📍</div>
+
+                        <div>
+                            <h3>Your current location</h3>
+
+                            <p>
+                                Your browser will ask for permission before
+                                accessing your location.
+                            </p>
+                        </div>
+
+                    </div>
+
+
+                    <div class="location-status" id="locationStatus"
+                         role="status" aria-live="polite">
+                        Your location has not been requested yet.
+                    </div>
+
+
+                    <div class="coordinates hidden" id="coordinates">
+
+                        <div class="coordinate-item">
+                            <span>Latitude</span>
+                            <strong id="latitude">—</strong>
+                        </div>
+
+                        <div class="coordinate-item">
+                            <span>Longitude</span>
+                            <strong id="longitude">—</strong>
+                        </div>
+
+                        <div class="coordinate-item">
+                            <span>Accuracy</span>
+                            <strong id="accuracy">—</strong>
+                        </div>
+
+                    </div>
+
+
+                    <div class="location-actions">
+
+                        <button type="button" id="getLocationBtn"
+                                class="button button-primary">
+                            📍 Get My Location
+                        </button>
+
+                        <a href="#" id="mapLink"
+                           class="button button-outline hidden"
+                           target="_blank" rel="noopener noreferrer">
+                            Open Map ↗
+                        </a>
+
+                        <button type="button" id="shareLocationLinkBtn"
+                                class="button button-outline hidden">
+                            Share Map Link
+                        </button>
+
+                    </div>
+
+                    <p class="location-note">
+                        Location availability and accuracy depend on your
+                        device, browser permissions, and surroundings.
+                    </p>
+
+                </div>
+
+            </div>
+
+        </section>
+
+
+        <!-- ================= SAFETY REMINDER ================= -->
+
+        <section class="reminder-section">
+
+            <div class="reminder-card">
+
+                <div class="reminder-symbol">💜</div>
+
+                <div>
+                    <span class="section-label">A GENTLE REMINDER</span>
+
+                    <h2>Your safety matters. You matter.</h2>
+
+                    <p>
+                        Stay aware of your surroundings, keep trusted people
+                        informed when appropriate, and seek emergency help
+                        whenever you need it.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+    </main>
+
+
+    <!-- ================= FOOTER ================= -->
+
+    <footer class="footer">
+
+        <div class="container footer-content">
+
+            <a href="#home" class="footer-logo">SafeHer<span>.</span></a>
+
+            <p>
+                Designed to support awareness, preparedness, and connection.
+            </p>
+
+            <p class="copyright">
+                © <span id="year"></span> SafeHer. All rights reserved.
+            </p>
+
+        </div>
+
+    </footer>
+
+
+    <!-- Toast notification -->
+
+    <div id="toast" class="toast hidden"
+         role="status" aria-live="polite"></div>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
+```
